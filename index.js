@@ -20,9 +20,8 @@ const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
-server.db = router.db; // This makes the database accessible to json-server-auth
 server.use(auth);
-server.use('/api', router); // Use '/api' as the base URL for your API
+server.use(router); // Use '/api' as the base URL for your API
 
 const port = process.env.PORT || 3001;
 server.listen(port)
