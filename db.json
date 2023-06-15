@@ -20,12 +20,6 @@
       }
     ],
     "users": [
-      {
-        "email": "domain@test.com",
-        "password": "JohnDoePass123",
-        "firstName": "John",
-        "lastName": "Doe",
-        "id": 1
-      }
+
     ]
   }
