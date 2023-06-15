@@ -22,7 +22,7 @@
     "users": [
       {
         "email": "domain@test.com",
-        "password": "123",
+        "password": "JohnDoePass123",
         "firstName": "John",
         "lastName": "Doe",
         "id": 1
